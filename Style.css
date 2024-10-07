@@ -1,0 +1,191 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #555;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #777;
+}
+
+/* Section Styles */
+section {
+    padding: 50px 20px;
+    margin: 20px auto;
+    max-width: 1000px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* About Section */
+#about {
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#about img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+
+/* Hobbies Section */
+#hobbies ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+#hobbies ul li {
+    margin: 10px 0;
+}
+
+#hobbies ul li a {
+    color: #007BFF;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+#hobbies ul li a:hover {
+    color: #0056b3;
+}
+
+/* Guess My Hobby Section */
+#guess {
+    text-align: center;
+}
+
+#guess form {
+    margin: 20px auto;
+    display: inline-block;
+}
+
+#guess label {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    display: block;
+}
+
+#guess input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+}
+
+#guess button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#guess button:hover {
+    background-color: #0056b3;
+}
+
+/* Future Goals Section */
+#future {
+    text-align: center;
+}
+
+#future p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Projects Section */
+#projects {
+    text-align: center;
+}
+
+#projects p {
+    font-size: 1.2rem;
+}
+
+#projects a {
+    color: #007BFF;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+#projects a:hover {
+    color: #0056b3;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
